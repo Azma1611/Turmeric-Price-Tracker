@@ -2,18 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Turmeric Data Entry</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paste Market Data</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h2>Paste WhatsApp Market Data</h2>
+  <div class="card">
+    <h2>📋 Paste Turmeric Market Data</h2>
+    <p class="sub">Paste today’s WhatsApp data below</p>
 
-<textarea id="pasteData" placeholder="Paste market data here..."></textarea>
+    <textarea id="dataInput" placeholder="Paste copied WhatsApp data here..."></textarea>
 
-<button id="processBtn">NEXT</button>
+    <button onclick="saveAndNext()">Next ➜</button>
+  </div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
