@@ -29,3 +29,19 @@ button {
   background: #007bff;
   color: white;
 }
+
+.card {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.sub {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
